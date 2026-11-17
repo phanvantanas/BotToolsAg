@@ -1,0 +1,28 @@
+# Môi trường và bí mật bảo mật (KHÔNG ĐƯỢC COMMIT)
+.env
+.env.*
+!.env.example
+*.env.local
+*.session
+*.token
+*.key
+
+# Cơ sở dữ liệu và dữ liệu cá nhân
+*.db
+*.sqlite
+*.sqlite3
+
+# Python cache & virtualenv
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+.pytest_cache/
+
+# Files tạm & logs
+*.log
+logs/
+screenshots/
+temp/
